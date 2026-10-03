@@ -1,0 +1,101 @@
+table_no,caption,page,csv_file,rows,cols,flag
+,(continuation / no caption on page),4,csv/p004_cont0.csv,41,3,ok
+,(continuation / no caption on page),5,csv/p005_cont0.csv,46,3,ok
+,(continuation / no caption on page),6,csv/p006_cont0.csv,48,3,ok
+1.1,Selected indicators of the Indian economy,8,csv/Table_1.1_selected_indicators_of_the_indian_economy.csv,31,10,ok
+,(continuation / no caption on page),9,csv/p009_cont0.csv,22,11,ok
+1.2,"Globalprimaryenergyconsumption,2024",10,csv/Table_1.2_globalprimaryenergyconsumption_2024.csv,53,10,ok
+2.1,Worldtop 30crude oilcountries-ProvenReserves,12,csv/Table_2.1_worldtop_30crude_oilcountries_provenreserves.csv,45,5,ok
+2.2,"Worldtop30crudeoil*producingcountries,2024",13,csv/Table_2.2_worldtop30crudeoil_producingcountries_2024.csv,42,4,ok
+2.3,"Worldtop30crudeoilconsumingcountries,2024",14,csv/Table_2.3_worldtop30crudeoilconsumingcountries_2024.csv,40,4,ok
+2.4,Worldtop 30 crudeoil refining capacities* countries,15,csv/Table_2.4_worldtop_30_crudeoil_refining_capacities_countri.csv,40,6,ok
+2.5A,State wise Crude Oil Production (Including Condensate),16,csv/Table_2.5A_state_wise_crude_oil_production_including_conden.csv,19,9,ok
+2.5B,Indigenous Crude Oil and Condensate production,16,csv/Table_2.5B_indigenous_crude_oil_and_condensate_production.csv,13,9,ok
+2.6,Self sufficiency in petroleum products,16,csv/Table_2.6_self_sufficiency_in_petroleum_products.csv,10,9,ok
+2.7(A),Status of blocks under NELP (As on 01.10.2025),17,csv/Table_2.7(A)_status_of_blocks_under_nelp_as_on_01_10_2025.csv,14,15,ok
+2.7(B),Status of blocks under OALP round of HELP and DSF Rounds (As on 01.10.2025),17,csv/Table_2.7(B)_status_of_blocks_under_oalp_round_of_help_and_ds.csv,22,22,ok
+2.8,DomesticOil &GasProductionvisa visOverseasProduction,18,csv/Table_2.8_domesticoil_gasproductionvisa_visoverseasproduct.csv,6,8,ok
+2.9,CoalBedMethane(CBM)GasdevelopmentinIndiaason01.10.2025,18,csv/Table_2.9_coalbedmethane_cbm_gasdevelopmentinindiaason01_1.csv,11,4,ok
+2.10,StatusofShaleGasandoil developmentin India(Ason01.10.2025),18,csv/Table_2.10_statusofshalegasandoil_developmentin_india_ason0.csv,18,6,ok
+3.1,Worldtop30naturalgasreservecountries,21,csv/Table_3.1_worldtop30naturalgasreservecountries.csv,39,3,ok
+3.2,Worldtop30NaturalGasProducingcountries,22,csv/Table_3.2_worldtop30naturalgasproducingcountries.csv,40,3,ok
+3.3,Worldtop30NaturalGasconsuming countries,23,csv/Table_3.3_worldtop30naturalgasconsuming_countries.csv,40,3,ok
+3.4,NaturalGasataglance,24,csv/Table_3.4_naturalgasataglance.csv,18,11,ok
+3.5,NaturalGasproduction,24,csv/Table_3.5_naturalgasproduction.csv,20,8,ok
+3.5A,StatewiseNaturalGasProductioninMMSCM,26,csv/Table_3.5A_statewisenaturalgasproductioninmmscm.csv,51,5,ok
+,(continuation / no caption on page),27,csv/p027_cont0.csv,51,5,ok
+3.6,Geographical Area wise Number of CNG stations and PNG Connections as on,28,csv/Table_3.6_geographical_area_wise_number_of_cng_stations_an.csv,59,8,ok
+,(continuation / no caption on page),29,csv/p029_cont0.csv,62,7,ok
+,(continuation / no caption on page),30,csv/p030_cont0.csv,60,7,ok
+,(continuation / no caption on page),31,csv/p031_cont0.csv,66,7,ok
+,(continuation / no caption on page),32,csv/p032_cont0.csv,66,7,ok
+,(continuation / no caption on page),33,csv/p033_cont0.csv,66,7,ok
+3.7,CNGSalesinIndia,34,csv/Table_3.7_cngsalesinindia.csv,28,11,ok
+3.7,CNGSalesinIndia,35,csv/Table_3.7_cngsalesinindia__2.csv,22,11,ok
+,(continuation / no caption on page),36,csv/p036_cont0.csv,39,6,ok
+3.9,LNGTerminals(Operational),37,csv/Table_3.9_lngterminals_operational.csv,26,9,ok
+3.10,Importof LiquefiedNaturalGas (LNG),37,csv/Table_3.10_importof_liquefiednaturalgas_lng.csv,16,3,ok
+3.11,Domestic natural gas price and gas price ceiling,38,csv/Table_3.11_domestic_natural_gas_price_and_gas_price_ceiling.csv,57,5,ok
+,(continuation / no caption on page),40,csv/p040_cont0.csv,49,6,ok
+3.12B,CGDSalesData (inSCMD)-SixMonths,42,csv/Table_3.12B_cgdsalesdata_inscmd_sixmonths.csv,12,6,ok
+3.12C,Basket Trends- CGD Sale Profile* (in MMSCM) -Annual,43,csv/Table_3.12C_basket_trends_cgd_sale_profile_in_mmscm_annual.csv,8,7,ok
+4.1,Refineries:InstalledCapacity and Crude Oil Processing,47,csv/Table_4.1_refineries_installedcapacity_and_crude_oil_proce.csv,33,11,ok
+4.2,High Sulphur(HS)& Low Sulphur(LS)crudeoil processing,48,csv/Table_4.2_high_sulphur_hs_low_sulphur_ls_crudeoil_processi.csv,8,9,ok
+4.3,Importedcrude & Indigenous crudeoil processing,48,csv/Table_4.3_importedcrude_indigenous_crudeoil_processing.csv,40,15,ok
+4.5,ProductionofPetroleumProducts:Allsources,49,csv/Table_4.5_productionofpetroleumproducts_allsources.csv,18,12,ok
+4.6,ProductionvisavisConsumptionofPetroleumProducts,50,csv/Table_4.6_productionvisavisconsumptionofpetroleumproducts.csv,35,4,ok
+4.7,GrossRefiningMargins(GRM)ofRefineries,51,csv/Table_4.7_grossrefiningmargins_grm_ofrefineries.csv,13,8,ok
+4.8,DistillateyieldofPSURefineries,51,csv/Table_4.8_distillateyieldofpsurefineries.csv,23,9,ok
+4.9,Fuel&Loss,52,csv/Table_4.9_fuel_loss.csv,35,18,ok
+4.10,Specific Energy Consumption of PSU Refineries,53,csv/Table_4.10_specific_energy_consumption_of_psu_refineries.csv,23,9,ok
+4.11,Import/Exportof crudeoil and petroleumproducts,54,csv/Table_4.11_import_exportof_crudeoil_and_petroleumproducts.csv,43,23,ok
+4.12,ExchangeratesofIndianrupee (₹),55,csv/Table_4.12_exchangeratesofindianrupee.csv,37,5,ok
+5.1,NaturalGas Pipelinesin theCountry(Operational),58,csv/Table_5.1_naturalgas_pipelinesin_thecountry_operational.csv,16,13,ok
+,(continuation / no caption on page),59,csv/p059_cont0.csv,16,13,ok
+5.2,ExistingMajor CrudeOilPipelinesinIndia,61,csv/Table_5.2_existingmajor_crudeoilpipelinesinindia.csv,38,7,ok
+5.3,Existing Major POL Pipelines in India,62,csv/Table_5.3_existing_major_pol_pipelines_in_india.csv,48,7,ok
+,(continuation / no caption on page),63,csv/p063_cont0.csv,31,7,ok
+6.1,Consumption of Petroleum Products,66,csv/Table_6.1_consumption_of_petroleum_products.csv,18,14,ok
+6.2,Consumption growth of petroleum products,67,csv/Table_6.2_consumption_growth_of_petroleum_products.csv,16,15,ok
+,(continuation / no caption on page),69,csv/p069_cont0.csv,16,3,ok
+6.3(A),State-wiseSalesof PetroleumProductsconsumption:FY2025-26(H1),74,csv/Table_6.3(A)_state_wisesalesof_petroleumproductsconsumption_f.csv,46,13,ok
+6.3(B),State-wiseSalesof PetroleumProductsconsumption: FY 2025-26(H1),75,csv/Table_6.3(B)_state_wisesalesof_petroleumproductsconsumption_f.csv,49,17,ok
+6.4(A),AllProductsAnnualIndustrySales-Region&Statewise,76,csv/Table_6.4(A)_allproductsannualindustrysales_region_statewise.csv,50,7,ok
+6.4(B),MS/Petrol Annual Industry Sales-Region & State wise,77,csv/Table_6.4(B)_ms_petrol_annual_industry_sales_region_state_wis.csv,52,7,ok
+6.4(C),HSDAnnual IndustrySales-Region&Statewise,78,csv/Table_6.4(C)_hsdannual_industrysales_region_statewise.csv,51,7,ok
+6.4(D),AverageMS/HSDSalesPerRO2025-26(H1)vs2024-25(H1),79,csv/Table_6.4(D)_averagems_hsdsalesperro2025_26_h1_vs2024_25_h1.csv,47,15,ok
+6.5,PDSSKOallocationv/ssales,80,csv/Table_6.5_pdsskoallocationv_ssales.csv,48,13,ok
+6.6,"Oil industry Retail Outlets, SKO / LDO Agencies",81,csv/Table_6.6_oil_industry_retail_outlets_sko_ldo_agencies.csv,48,11,ok
+6.7,Industry Marketing Infrastructureas on 01.10.2025,83,csv/Table_6.7_industry_marketing_infrastructureas_on_01_10_202.csv,12,9,ok
+6.8,Break-up of consumption data (PSU and Private),84,csv/Table_6.8_break_up_of_consumption_data_psu_and_private.csv,18,19,ok
+6.9,Oil industry Alternate fuel infrastructureat retail outlets,87,csv/Table_6.9_oil_industry_alternate_fuel_infrastructureat_ret.csv,45,5,ok
+6.10,Ethanol Blending Programme,88,csv/Table_6.10_ethanol_blending_programme.csv,41,6,ok
+6.10,Ethanol Blending Programme,88,csv/Table_6.10_ethanol_blending_programme_part1.csv,8,4,ok
+7.1,LPG Marketing,91,csv/Table_7.1_lpg_marketing.csv,41,8,ok
+7.2,State-wise Active Domestic LPG connections,92,csv/Table_7.2_state_wise_active_domestic_lpg_connections.csv,46,3,ok
+7.3,State-wise PMUY Connections,93,csv/Table_7.3_state_wise_pmuy_connections.csv,47,3,ok
+7.4,LPG Domestic customers enrolment (14.2 kg/5 kg) by PSU OMCs,94,csv/Table_7.4_lpg_domestic_customers_enrolment_14_2_kg_5_kg_by.csv,48,7,ok
+7.5,Number of LPG Distributors as on 01.10.2025,95,csv/Table_7.5_number_of_lpg_distributors_as_on_01_10_2025.csv,46,6,ok
+7.6,State-wise PCC (Per Connection Consumption) of LPG,97,csv/Table_7.6_state_wise_pcc_per_connection_consumption_of_lpg.csv,46,7,ok
+8.1,Indian Basket Crude Oil Price,100,csv/Table_8.1_indian_basket_crude_oil_price.csv,38,2,ok
+8.2,Price built-up of PDS Kerosene at Mumbai,102,csv/Table_8.2_price_built_up_of_pds_kerosene_at_mumbai.csv,22,3,ok
+8.5,Price built-up of Diesel at Delhi,103,csv/Table_8.5_price_built_up_of_diesel_at_delhi.csv,17,3,ok
+8.6A,"Excise duty on Export of MS, HSD & ATF and Special Additional Excise",104,csv/Table_8.6A_excise_duty_on_export_of_ms_hsd_atf_and_special_.csv,57,5,ok
+8.7,Share of taxes in retail selling price of PDS Kerosene at Mumbai,105,csv/Table_8.7_share_of_taxes_in_retail_selling_price_of_pds_ke.csv,38,3,ok
+8.10,Dealers' commission on petrol & diesel,106,csv/Table_8.10_dealers_commission_on_petrol_diesel.csv,43,3,ok
+8.12,Distributors' commission on domestic LPG,107,csv/Table_8.12_distributors_commission_on_domestic_lpg.csv,59,4,ok
+8.13A,Retail selling price of major petroleum products,108,csv/Table_8.13A_retail_selling_price_of_major_petroleum_products.csv,25,7,ok
+8.14,Retail Selling Price of petroleum products,109,csv/Table_8.14_retail_selling_price_of_petroleum_products.csv,48,7,ok
+8.16,"Customs, Excise duty and GST rates on petroleum products as on",110,csv/Table_8.16_customs_excise_duty_and_gst_rates_on_petroleum_p.csv,13,8,ok
+,(continuation / no caption on page),111,csv/p111_cont0.csv,29,5,ok
+8.17,Actual rate of sales tax/ VAT/GST and other taxes levied by State/UT,112,csv/Table_8.17_actual_rate_of_sales_tax_vat_gst_and_other_taxes.csv,43,7,ok
+8.18,Contribution of petroleum sector to exchequer,113,csv/Table_8.18_contribution_of_petroleum_sector_to_exchequer.csv,38,9,ok
+8.19,State/UT wise collection of sales tax/ VAT by petroleum sector,114,csv/Table_8.19_state_ut_wise_collection_of_sales_tax_vat_by_pet.csv,41,7,ok
+8.20,State/UT wise collection of SGST/UTGST by petroleum sector,115,csv/Table_8.20_state_ut_wise_collection_of_sgst_utgst_by_petrol.csv,44,7,ok
+8.21,Profit After Tax (PAT) of oil companies,116,csv/Table_8.21_profit_after_tax_pat_of_oil_companies.csv,26,8,ok
+8.22,Financial details of major oil companies,117,csv/Table_8.22_financial_details_of_major_oil_companies.csv,45,11,ok
+8.23,Total subsidy on Petroleum Products & Natural Gas,118,csv/Table_8.23_total_subsidy_on_petroleum_products_natural_gas.csv,19,8,ok
+8.24,Quantity and value of Indian crude oil imports,119,csv/Table_8.24_quantity_and_value_of_indian_crude_oil_imports.csv,12,6,ok
+9.1,Average international Calorific Values of different fuels,121,csv/Table_9.1_average_international_calorific_values_of_differ.csv,33,6,ok
+9.5,Natural Gas Conversions,122,csv/Table_9.5_natural_gas_conversions.csv,30,4,ok
+,(continuation / no caption on page),123,csv/p123_cont0.csv,33,5,ok

@@ -1,0 +1,23 @@
+Table 4.10: Specific Energy Consumption of PSU Refineries,,,,,,,,
+(MBTU/Bbl/NRGF),,,,,,,,
+Company,Refinery,2020-21,2021-22,2022-23,2023-24,2024-25,2024-25 (H1),2025-26 (H1)
+IOCL,Barauni,78.1,76.8,71.9,71.6,68.2,71.6,71.0
+,Koyali,82.6,79.5,71.1,73.7,72.1,73.7,85.9
+,Haldia,89.3,86.9,76.7,71.1,68.5,71.1,63.8
+,Mathura,63.1,62.7,60.7,61.5,63.3,61.5,57.6
+,Panipat,68.0,63.6,60.6,62.8,60.8,62.8,58.9
+,Guwahati,123.7,121.4,105.0,103.6,102.3,103.6,88.3
+,Digboi,98.1,88.4,97.3,91.5,89.9,91.5,100.8
+,Bongaigaon,108.5,111.1,107.2,99.6,97.9,99.6,93.2
+,Paradip,69.0,68.4,61.8,63.3,68.5,63.3,62.6
+CPCL,Manali,86.7,82.8,75.2,72.2,72.0,72.2,70.2
+,CBR,-,-,,,,,
+HPCL,Mumbai,98.2,105.8,75.9,75.0,73.6,75.0,74.6
+,Visakhapatnam,81.2,85.3,80.3,80.5,74.3,80.5,75.8
+BPCL,Mumbai,64.4,64.1,63.7,60.9,60.9,60.9,61.5
+,Kochi,71.7,67.1,65.7,62.7,64.8,62.7,64.7
+,Bina,,69.9,67.2,66.0,63.3,66.0,63.5
+NRL,Numaligarh,64.4,63.5,61.7,61.6,61.5,61.6,61.4
+MRPL,Mangalore,81.4,73.5,71.6,72.9,70.7,72.9,75.0
+PSU average,,76.6,73.7,69.8,69.0,68.4,69.0,73.3
+SpecificEnergyConsumptionwrittenasSECorMBN;mbn=MBTU/Bbl/NRGF;MBTU:Netenergy &lossin Refinery(ThousandBritishThermal Unit); BbLs:Barrelsofcrudeprocessed;NRGF:CompositeenergyfactorfortheRefinery,,,,,,,,

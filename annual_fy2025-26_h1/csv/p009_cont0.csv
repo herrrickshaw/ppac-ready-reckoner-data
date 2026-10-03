@@ -1,0 +1,22 @@
+Petroleum,,,,,,,,,,
+Sl. no.,Particulars,Source,Unit/ Base,2020-21,2021-22,2022-23,2023-24,2024-25,2024-25 (H1),2025-26 (H1)
+1,Crude oil production in India,ONGC/OIL /DGH,MMT,30.5,29.7,29.2,29.4,28.7,14.4,14.2
+2,Consumption of petroleum products in India,OMCs/ PPAC,MMT,194.3,201.7,223.0,234.3,239.5,117.1,118.3
+3,Petroleum products production in India,Oil Cos,MMT,233.5,254.3,266.5,276.1,283.8,139.9,139.6
+4,Imports & exports,,,,,,,,,
+,Crude oil imports,Oil Cos,$ Billion,62.2,120.7,157.5,133.4,137.2,71.2,60.6
+,Petroleum products imports,Oil Cos & DGCIS,$ Billion,14.8,23.7,26.9,22.9,23.7,11.7,11.2
+,Total petroleum imports (crude oil + petroleum products),Oil Cos & DGCIS,$ Billion,77.0,144.3,184.4,156.3,160.8,82.9,71.8
+,Petroleum products exports,Oil Cos,$ Billion,21.4,44.4,57.3,47.7,44.4,22.1,19.9
+5,Gross petroleum imports as % of India's gross imports in value terms,MOC&I/PP AC,%,19.5,23.5,25.8,23.0,23.8,23.1,19.1
+6,Gross petroleum exports as % of India's gross exports in value terms,MOC&I/PP AC,%,7.3,10.6,12.8,10.9,10.3,10.4,8.8
+7,Import dependency (based on consumption),PPAC,%,84.4,85.5,87.3,87.7,88.2,87.9,88.4
+"Note : OMCs: Oil Marketing Companies, PPAC: Petroleum Planning & Analysis Cell",,,,,,,,,,
+Natural gas,,,,,,,,,,
+Sl. no.,Particulars,Source,Unit/ Base,2020-21,2021-22,2022-23,2023-24,2024-25,2024-25 (H1),2025-26 (H1)
+1,Gross Production,ONGC/OIL /DGH,MMSCM,"28,672","34,024","34,450","36,438","36,113","18,160","17,585"
+2,Net Production (net of flare and loss),ONGC/OIL /DGH,MMSCM,"27,784","33,131","33,664","35,717","35,594","17,875","17,359"
+3,LNG Import**,"LNG importing Cos, DGCIS",MMSCM,"33,198","31,028","26,304","31,795","36,354","19,008","16,906"
+4,Total Consumption including internal use (Net Production+ LNG import),,MMSCM,"60,982","64,159","59,969","67,512","71,948","36,883","34,265"
+5,Import dependency (based on consumption) {(slno.3/slno.4 )*100},PPAC,%,54.4,48.4,43.9,47.1,50.5,51.5,49.3
+"Note : MMSCM : Million Standard Cubic Meter, LNG Import Data for the month of Aug '25 and Sept'25 are prorated",,,,,,,,,,

@@ -1,0 +1,20 @@
+OilIndiaLimited,,,,,,,
+A) Gross Production,2480,2893,3041,3090,3175,1577,1593
+B) Flared,164,200,231,216,81,39,28
+C) InternalUse,371,471,473,466,531,269,260
+D) Loss,14,32,48,40,28,17,16
+D)=A-B-C Net Production forSale,1930,2189,2289,2368,2535,1251,1289
+PSC/JVsfields,,,,,,,
+A) Gross Production,4321,10502,11440,14032,14143,7176,6776
+B) Flared,199,98,76,152,161,105,53
+C) InternalUse,925,1047,957,1026,938,484,418
+D) Loss,53,47,43,32,17,9,9
+E)=A-B-C-D Net Production forSale,3143,9310,10365,12822,13027,6578,6296
+,,,,,,,
+GrandTotal,,,,,,,
+A) Gross Production,28672,34024,34450,36438,36113,18160,17585
+B) Flared,822,813,695,649,475,259,202
+C) InternalUse,5729,5758,5504,5581,5547,2791,2625
+D) Loss,67,80,91,72,45,26,24
+E)=A-B-C-D Net Production forSale,22055,27374,28160,30135,30047,15084,14734
+"Source:DomesticGasProducers/DGH/LNGImportingcompanies/DGCIS Note:LNGimportdatainMillionMetricTonne(MMT),convertedtoPMPMASCCM R;1eMaMdTy= 1R3e25cMkMoSnCeMr BCM:BillionCubic Meter;MMSCMD:MillionStandardCubicMeterper Day 1",,,,,,,

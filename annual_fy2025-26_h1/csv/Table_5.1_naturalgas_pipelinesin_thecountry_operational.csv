@@ -1,0 +1,16 @@
+Table5.1: NaturalGas Pipelinesin theCountry(Operational),,,,,,,,,,,,
+S.No.,Network/Region,Entity,Length (Kms),Authrozied capacity/ Declared capacity (MMSCMD) ason 01.10.20 24,Pipelinesize,PipelineStatus,Average flow FY 2024-25 (mmscmd),%Capacity utilisation FY 2024-25,Average flow Apr 2024- Sept 2024 (mmscmd ),%Capacity utilisation Apr 2024- Sept 2024,Average flow Apr 2025- Sept 2025 (mmscmd ),% Capacity utilisation Apr2025- Sept2025
+1,AssamNatural Gas Pipeline Network,Assam Gas Compa ny Limited (AGCL),106.713,2.428,800mm/500 mm/400mm/ 350mm,Operational,1.81,74.55%,1.85,76.19%,1.66,68.37%
+2,Cauvery Basin Network,GAIL,272,4.33,"18""/12""/8""/ 6""/4""/3""/2""",Operational,1.67,38.57%,1.79,41.34%,1.39,32.18%
+3,KGBasin Network,GAIL,919,15.99,"18""/16""/14""/12 "" /8""/6""/4""/2""",Operational,3.90,24.36%,3.83,23.92%,3.43,21.43%
+4,GujaratRegional Network(GRN) (in 2023-24 GRN excludes baroda network),GAIL,604,8.31,"24""/18""/14""/12 "" /8""/6""/5""/2""/1""",Operational,1.17,14.07%,1.15,13.78%,1.13,13.59%
+5,Agartala Regional Network,GAIL,65,2.00,"12""/10""/8""",Operational,0.69,34.66%,0.77,38.50%,0.64,32.19%
+6,Kochi- Koottanad- Bangalore- Mangalore#,GAIL,646,12.00,"30""/24""/ 18""/ 8""/4""",Under Construction/ Part Operational,3.94,32.85%,3.88,32.33%,4.19,34.93%
+7**,Hazira-Vijaipur- Jagdishpur- GREP (Gas Rehabilitation andExpansion Project)-Dahej- Vijaipur HVJ/VDPL,GAIL,6741,107,"42""/36""/30""/18 "" /16""/14""/12""/1 0""/8""/6""/4""/2 """,Operational,116,70.74%,119.57,73.0%,110.77,67.6%
+,Dahej-Vijaipur (DVPL)-Vijaipur- Dadri(GREP) Upgradation DVPL 2&VDPL,GAIL,,,"48""/16""/12""",Operational,,,,,,
+,Dahej-Uran- Panvel- Dhabhol,GAIL,943,19.90,"30""/24""/18""/12 "" /6""/4""",Operational,,,,,,
+,Mumbai Regional Network,GAIL,125,7.04,"26""/20""18""/12""/ 4",Operational,,,,,,
+,Chainsa- Jhajjar- Hissar,GAIL,442,35.00,"36""/18""/16""/12 "" /10""/8""/4""",Operational,,,,,,
+,Dadri- Bawana- Nangal,GAIL,909,31.00,"36""/30""/18""/10 "" /8""",Operational,,,,,,
+,Dabhol- Bangalore,GAIL,1148,16.00,"36""/30""/24""/18 "" /10""/8""",Operational,,,,,,
+,Jagdishpur- Haldia- Bokaro Dhamra- Paradip- Barauni- Guwahati#,GAIL,2383,7.44,"36'/30”/24""/1 8"" /12”/8”/6""/4""",Under Construction/ Part Operational,,,,,,
