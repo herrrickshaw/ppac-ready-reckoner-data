@@ -14,6 +14,7 @@ import csv
 import re
 import sys
 from pathlib import Path
+from typing import Optional
 
 import pdfplumber
 
@@ -24,47 +25,59 @@ TS = {"vertical_strategy": "lines", "horizontal_strategy": "lines",
       "snap_tolerance": 4, "join_tolerance": 4}
 FOOTER = re.compile(r'^(PPAC Ready Reckoner|Petroleum Planning|www\.ppac|\d+)\s*$', re.I)
 
+SLUG_MAX_LEN = 48          # file-name slug derived from the caption
+CAPTION_MAX_LEN = 90       # caption text kept in index.csv
+MIN_NONEMPTY_CELLS = 4     # a "table" needs at least this many filled cells ...
+MIN_NONEMPTY_FRAC = 0.35   # ... and at least this fraction of cells filled
+INDEX_FIELDS = ["table_no", "caption", "page", "csv_file", "rows", "cols", "flag"]
 
-def slug(s):
+Table = list[list[Optional[str]]]
+
+
+def slug(s: str) -> str:
+    """Caption -> lowercase file-name fragment, '(Figures ...)' suffix dropped."""
     s = re.sub(r'\(Figures?.*?\)', '', s)
     s = re.sub(r'[^A-Za-z0-9]+', '_', s).strip('_').lower()
-    return s[:48]
+    return s[:SLUG_MAX_LEN]
 
 
-def tno(s):
-    return re.sub(r'\s+', '', s)          # "6.3 (A)" -> "6.3(A)"
+def tno(s: str) -> str:
+    """Normalise a table number: "6.3 (A)" -> "6.3(A)"."""
+    return re.sub(r'\s+', '', s)
 
 
-def clean(cell):
+def clean(cell: Optional[str]) -> str:
+    """Collapse newlines/whitespace inside a cell; None -> ''."""
     if cell is None:
         return ''
     return re.sub(r'\s+', ' ', str(cell).replace('\n', ' ')).strip()
 
 
-def table_ok(t):
+def table_ok(t: Optional[Table]) -> bool:
     """Keep tables that look like data: >=2 rows, >=2 cols, mostly non-empty."""
     if not t or len(t) < 2 or len(t[0]) < 2:
         return False
     cells = [c for row in t for c in row]
     nonempty = sum(1 for c in cells if clean(c))
-    return nonempty >= max(4, 0.35 * len(cells))
+    return nonempty >= max(MIN_NONEMPTY_CELLS, MIN_NONEMPTY_FRAC * len(cells))
 
 
-def main():
+def main() -> None:
+    """CLI entry: <pdf> <out_subdir> -> <out_subdir>/csv/*.csv + <out_subdir>/index.csv."""
     pdf_path = Path(sys.argv[1])
     out = Path(__file__).resolve().parent / sys.argv[2]
     (out / "csv").mkdir(parents=True, exist_ok=True)
 
-    index = []
-    used_names = {}
+    index: list[dict] = []
+    used_names: dict[str, int] = {}
     with pdfplumber.open(pdf_path) as pdf:
         for pi, page in enumerate(pdf.pages, 1):
             text = page.extract_text() or ""
-            caps = [(tno(m.group(1)), clean(m.group(2))[:90])
+            caps = [(tno(m.group(1)), clean(m.group(2))[:CAPTION_MAX_LEN])
                     for m in (CAP_RE.match(l.strip()) for l in text.splitlines()) if m]
             try:
                 tables = [t for t in page.extract_tables(TS) if table_ok(t)]
-            except Exception as e:
+            except Exception as e:  # pdfplumber can choke on malformed pages; log and move on
                 tables = []
                 index.append({"table_no": "", "caption": f"(extract error: {e})",
                               "page": pi, "csv_file": "", "rows": 0, "cols": 0, "flag": "error"})
@@ -102,8 +115,9 @@ def main():
 
     index.sort(key=lambda r: (r["page"],))
     with (out / "index.csv").open("w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["table_no", "caption", "page", "csv_file", "rows", "cols", "flag"])
-        w.writeheader(); w.writerows(index)
+        w = csv.DictWriter(f, fieldnames=INDEX_FIELDS)
+        w.writeheader()
+        w.writerows(index)
 
     ok = sum(1 for r in index if r["flag"] == "ok")
     fig = sum(1 for r in index if r["flag"].startswith("figure"))
