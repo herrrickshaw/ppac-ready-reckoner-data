@@ -173,3 +173,12 @@ def test_output_directory_is_created_under_the_script_dir_for_relative_names(rr,
     monkeypatch.setattr(sys, "argv", ["extract_rr.py", "in.pdf", "sub/dir"])
     rr.main()
     assert (tmp_path / "script" / "sub" / "dir" / "csv" / "Table_9.1_rel.csv").exists()
+
+
+def test_rerunning_into_an_existing_output_directory_overwrites(rr, tmp_path, monkeypatch, capsys):
+    pages = [FakePage("Table 1.1 : Again", [good(tag="old")])]
+    out, _, _ = run(rr, tmp_path, monkeypatch, capsys, pages)
+    pages = [FakePage("Table 1.1 : Again", [good(tag="new")])]
+    out, index, _ = run(rr, tmp_path, monkeypatch, capsys, pages)
+    assert list(csv.reader(open(out / "csv" / "Table_1.1_again.csv")))[0] == ["new00", "new01", "new02"]
+    assert len(index) == 1                                    # the index is rewritten, not appended to
